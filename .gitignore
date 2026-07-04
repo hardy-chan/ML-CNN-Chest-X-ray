@@ -1,0 +1,14 @@
+# Virtual Environments
+tf_env/
+my_tf_pip_env/
+
+# Heavy datasets
+dataset/
+archive.zip
+
+# IDE, Scratch Scripts, and System Cache Files
+test.py
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
