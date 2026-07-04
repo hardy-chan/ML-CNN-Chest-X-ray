@@ -2,9 +2,10 @@
 tf_env/
 my_tf_pip_env/
 
-# Heavy datasets
+# Heavy Data Files
 dataset/
 archive.zip
+best_pneumonia_model.keras
 
 # IDE, Scratch Scripts, and System Cache Files
 test.py
@@ -12,3 +13,5 @@ test.py
 __pycache__/
 *.pyc
 .DS_Store
+*.out
+*.err
