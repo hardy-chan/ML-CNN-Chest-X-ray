@@ -1,6 +1,6 @@
 # Medical Imaging: Chest X-Ray Pneumonia Classification Pipeline
 
-This repository contains a convolutional neural network (CNN) pipeline with a two-stage fine-tuning workflow for the binary classification of pneumonia from chest X-ray data. The codebase documents an engineering progression from a local, baseline architecture to an optimized, high-throughput training pipeline deployed on a local single-node Slurm workload manager.
+This repository contains a convolutional neural network (CNN) pipeline with a two-stage fine-tuning workflow for the binary classification of pneumonia from chest X-ray data. The codebase documents an engineering progression from a local, baseline architecture to an optimized, high-throughput training pipeline deployed on a local single-node Slurm workload manager. AI-assisted.
 
 ## Dataset source:
 Available from Kaggle Repository: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data).
