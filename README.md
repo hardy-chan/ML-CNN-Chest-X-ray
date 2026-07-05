@@ -2,7 +2,8 @@
 
 This repository contains a convolutional neural network (CNN) pipeline with a two-stage fine-tuning workflow for the binary classification of pneumonia from chest X-ray data. The codebase documents an engineering progression from a local, baseline architecture to an optimized, high-throughput training pipeline deployed on a local single-node Slurm workload manager.
 
-## Dataset available from https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data
+## Dataset source:
+Available from Kaggle Repository: [Chest X-Ray Images (Pneumonia)](https://www.kaggle.com/datasets/paultimothymooney/chest-xray-pneumonia/data).
 
 ## Architecture Development
 
@@ -17,7 +18,7 @@ This repository contains a convolutional neural network (CNN) pipeline with a tw
 
 ## Environment Setup
 
-Steps for native Linux or WSL2 instance:
+Steps for native `Linux` or `WSL2` instance:
 
 1. Clone the repository to the local filesystem.
 2. Construct a Python 3.12 environment (required for TensorFlow version compliance):
